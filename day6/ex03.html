@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vi du 3</title>
+</head>
+<body>
+<!-- from / button / input / label / selact - opition-->
+<strong><pre>1.INPUT</pre></strong>
+<p>placeholder : goi y xem nhap cai gi day</p>
+<p>value : gia tri tho </p>
+<p>type : hien thi gia tri ( co nhieu kieu ) </p>
+<p>name : ten cua input</p>
+<hr>
+<i>Exp: </i> <br>
+<label>username</label>
+<input placeholder="username" value="hihu@gmail.com">
+<span>password</span>
+<input placeholder="password" value="123456" type="password">
+<br>
+<label>Age</label>
+<input type="number" placeholder="Age">
+<br>
+<label>Email</label>
+<input type="email" placeholder="Email@gmail.com">
+<hr>
+
+<strong><pre>2.FORM</pre></strong>
+<!--
+method : post, get, put, patch
+action : hanh dong
+
+dieu kien la
+- the form phai co action + method ( neu khong co method thi auto method get )
+- input type la submit .
+    khi bam nut submit thi du lieu se duocj gui den link trong action voi method
+ get thi du lieu duoc gui qua url
+ han che -> litmit data, kem bao mat hon
+ post / put / patch : du lieu gui qua url
+
+-->
+<form action="https://api-gateway.fullstack.edu.vn/action_page.php" method="post">
+    <label for="username">user name</label>
+    <input id="username" name="username" t>
+    <label for="password">password</label>
+    <input id="password" name="password" type="password">
+    <br>
+    <label for="age">Age</label>
+    <input id="age" placeholder="Age" name="age">
+    <br>
+    <label for="email">Email</label>
+    <input id="email" placeholder="Email@gmail.com" name="email">
+    <br>
+
+<!-- lua chon -->
+    <span>Ban thich gi</span> <br>
+    <label>Meo con</label><input type="checkbox" name = "dongvat[]" value="cat">
+    <label>Cho con</label><input type="checkbox" name = "dongvat[]" value="dog">
+    <label>Heo con</label><input type="checkbox" name = "dongvat[]" value="pig">
+    <label>ca 3 con</label><input type="checkbox" name = "dongvat[]" value="full">
+    <br>
+    <span>Gioi tinh cua ban la: </span> <br>
+    <label>Nam </label> <input type="radio" name = "gender[]" value="nam">
+    <label>Nu </label> <input type="radio" name = "gender[]" value="nu">
+    <label>Khac</label> <input type="radio" name = "gender[]" value="khac">
+    <br>
+    <span>Ban o dau? </span>
+    <select name="address" id="">
+        <option value="ha noi">29</option>
+        <option value="quang ninh ">14</option>
+        <option value="hai phong">36</option>
+        <option value="vinh phuc ">88</option>
+    </select>
+    <br>
+    <input type="submit">
+</form>
+
+</body>
+</html>

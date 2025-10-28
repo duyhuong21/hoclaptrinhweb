@@ -1,0 +1,7 @@
+# Có 3 cách sử dụng css :
+1. inline: viết trong attribute style
+2. dùng css.
+3. dùng trực tiếp vào thẻ
+
+# Css :
+- tất cả các thẻ html đều có css mặc định
