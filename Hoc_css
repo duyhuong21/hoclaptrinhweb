@@ -1,7 +1,22 @@
 # Có 3 cách sử dụng css :
 1. inline: viết trong attribute style
-2. dùng css.
-3. dùng trực tiếp vào thẻ
+2. internal: viết trong cặp thẻ style
+3. external: viết một file css
+
+* cú pháp:
+selector{
+ css code
+}
+
+* selector có thể là tên thẻ exp: h1, h2, ...
+
+* style của 1 thẻ sẽ bị ảnh hưởng bởi nhiều chỗ
+- inline
+- internal
+- external
+-> mức độ ảnh hưởng sẽ tỉ lệ nghịch với độ bao phủ
+Độ ưu tiên:
+-> inline > internal > external
 
 # Css :
 - tất cả các thẻ html đều có css mặc định
