@@ -8,7 +8,11 @@ selector{
  css code
 }
 
-* selector có thể là tên thẻ exp: h1, h2, ...
+* selector có thể là:
+ - tên thẻ exp: h1, h2, ...
+ - id: mã định danh
+ - class: lớp
+-> độ ưu tiên: tên thẻ < class < id
 
 * style của 1 thẻ sẽ bị ảnh hưởng bởi nhiều chỗ
 - inline
