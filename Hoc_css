@@ -24,3 +24,25 @@ selector{
 
 # Css :
 - tất cả các thẻ html đều có css mặc định
+
+#~~~#
+
+h1 , p {
+    color: red;
+}
+-> h1 và p có chung css
+
+h1 + p {
+    color: red;
+}
+-> p đứng cạnh h1 sẽ css
+
+h1 ~ p {
+    color: red;
+}
+-> những thẻ p sau thẻ h1 và cùng cấp thì sẽ css
+
+input[name ="name"]{
+    color: blue;
+}
+-> nhung css co "name" la "name"

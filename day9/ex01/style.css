@@ -1,0 +1,24 @@
+h1 ~ p {
+    color: red;
+}
+input[name ="name"]{
+    color: blue;
+}
+
+input[name ="check"]:checked ~ p{
+    color: blue;
+}
+
+ #on:checked ~ p{
+    color: red;
+}
+ #off:checked  ~ p{
+    color: blue;
+}
+ #gr:checked  ~ p{
+    color: green;
+}
+
+ h1:hover{
+     color: red;
+ }
