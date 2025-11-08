@@ -46,3 +46,8 @@ input[name ="name"]{
     color: blue;
 }
 -> nhung css co "name" la "name"
+
+em:
+rem:
+
+background:
