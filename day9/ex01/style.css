@@ -9,10 +9,8 @@ input[name ="check"]:checked ~ p{
     color: blue;
 }
 
- #on:checked ~ p{
-    color: red;
-}
- #off:checked  ~ p{
+
+ #off:checked  ~ .test{
     color: blue;
 }
  #gr:checked  ~ p{
