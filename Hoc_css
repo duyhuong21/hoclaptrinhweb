@@ -51,3 +51,12 @@ em:
 rem:
 
 background:
+--------------------------------------------------------------------------------------------------------------------
+Background-size:
+- cover: cho vừa chiều rộng, chiều cao thừa thì cắt
+- conter: cho vừa chiều cao, chiều rộng thừa thì cắt
+
+ul, li{
+ list-style-type: lựa chọn để hiển thị.
+ list-style: bỏ cái phần chấm đi.
+}
