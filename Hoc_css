@@ -60,3 +60,13 @@ ul, li{
  list-style-type: lựa chọn để hiển thị.
  list-style: bỏ cái phần chấm đi.
 }
+
+Background = padding + content
+
+- các thẻ luôn có các thành phần như sau:
++ content
++ border: bọc ngoài thằng content, không nhận số âm
++ padding: phần nằm giữa con content với border, không nhận số âm
++ margin: nằm ngoài border, khoảng cách giữa các border, nhận số âm
+++ viết theo kim đồng đồ top right dưới trái
+!!! phần border phải viết là border-width
