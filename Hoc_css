@@ -70,3 +70,19 @@ Background = padding + content
 + margin: nằm ngoài border, khoảng cách giữa các border, nhận số âm
 ++ viết theo kim đồng đồ top right dưới trái
 !!! phần border phải viết là border-width
+
+text-align: center -> áp dụng cho những phần tử mà phần content còn đủ chỗ cho thẻ text căn giữa.
+box-sizing :
+  - border-box: width = content + padding + border.
+  -> tại vì content , padding nằm bên trong border.
+  - content-box: width = content
+
+* overflow : scroll là thanh cuộn khi nội dung tràn ra;
+* border-radius: để vô tròn viền
+ ## Tự tìm hiểu về reset css
+*object-fit:
+ - fill: là mặc định , resize
+ - cover:
+ + khi cái width của img mà lớn hơn image => thì ảnh scale ngang, chiều cao bị thừa ẩn đi
+ + khi cái width của img mà nhỏ hơn image => thì ảnh scale cao, chiều ngang bị thừa ẩn đi
+ - contain: luôn giữ nhiều ngang
