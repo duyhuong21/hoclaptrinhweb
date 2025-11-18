@@ -86,3 +86,33 @@ box-sizing :
  + khi cái width của img mà lớn hơn image => thì ảnh scale ngang, chiều cao bị thừa ẩn đi
  + khi cái width của img mà nhỏ hơn image => thì ảnh scale cao, chiều ngang bị thừa ẩn đi
  - contain: luôn giữ nhiều ngang
+
+# Thuộc tính display
+- thay đổi cách hiển thị cuẩ 1 thẻ html
+- các giá trị phổ biến
+* none -> Ẩn phần tử ( Mất không gian chứa )
++ thuộc tính ẩn nhưng mà không mất không gian visibility: hidden;
++ tàn hình opcity
+* block -> Dạng khối ( Giống thẻ block bên html )
+* inline -> Dạng khối ( Giống thẻ inline bên html )
+* inline block -> kết hợp
+
+# Thuộc tính position
+- mặc định: các phần tử sẽ sắp xếp từ trên xuống dưới ( nếu là block), từ trái qua phải ( nếu là inline)
+- position: can thiệp để di chuyển các phần tử sang vị trí khác.
+- các loại position
++ static: không có position
++ relative: tương đối
++ absolute: tuyệt đối
++ fixed: cố định ( khi kéo thanh cuộn )
+- các thuộc tính : + relative : tương đối với vị trí bạn đầu
+                   + absolute : tìm thằng gần nhất có thuộc tính positinon;
+                   + fixed
++ satic
++ top
++ left
++ bottom
++ z-index
++ inset
+* inset đại điện cho 4 top right bottom left;
+- z-index:
