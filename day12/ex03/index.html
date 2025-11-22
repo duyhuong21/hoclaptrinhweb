@@ -5,29 +5,57 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .check-html {
+            position: relative; /* để tooltip bám đúng */
+        }
+
+        .check-html:hover .check-html1 {
+            display: block;
+        }
+
+        .check-html1 {
+            display: none;
+            position: absolute;
+            top: 2.5rem; /* vị trí tooltip */
+            left: 0;
+            z-index: 10;
+        }
+
+        .check-html2 {
+            width: 25rem;
+            background-color: black;
+            color: white;
+            border-radius: 0.5rem;
+            text-align: center;
+            padding: 0.5rem;
+            position: relative;
+        }
+
+        .check-html3 {
+            width: 0;
+            height: 0;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            border-top: 12px solid black;
+            position: absolute;
+            top: 100%;
+            left: 1rem;
+        }
+
+    </style>
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <div class="box1">
-     <h1>hello ae nha</h1>
-     <p>
-         hello ae nha
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque, aut, beatae, consectetur ea eligendi eum exercitationem expedita harum hic ipsam iste laboriosam natus nemo possimus quam quisquam rerum voluptas?
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, dolor dolores dolorum eaque eligendi, fuga harum incidunt ipsam iure laudantium nesciunt pariatur perspiciatis quod reprehenderit sequi sit vero vitae voluptatem?
-     </p>
-
- </div>
- <input type="checkbox" id="on">
- <label for="on">on</label>
- <div class="box2">
-     <h2>Tam biet anh em nha</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea eos facere illum incidunt nam possimus quos? Commodi deserunt dolore dolorum harum iste itaque non odit, perferendis rem voluptatem voluptatum.
-     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi atque corporis debitis eaque eveniet excepturi expedita maxime minima, numquam omnis porro provident quae quidem repellat totam voluptatem? Aliquam, praesentium?
-     </p>
- </div>
-
- <div class="box3"> </div>
-
+<div class="check-html">
+    <input type="checkbox" id="html" class="html">
+    <label for="html">html</label>
+    <div class="check-html1">
+        <div class="check-html2">
+            <span>Email nhận thông tin khóa học (không bắt buộc)</span>
+            <div class="check-html3"></div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
