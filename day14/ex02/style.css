@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-bar img{
+    border-radius: 10px;
+}
+.header-bar nav {
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+.header-bar{
+    border-bottom: 1px solid black ;
+}
+.header-bar nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header-bar nav a{
+    text-decoration: none;
+    color: #ff7300;
+    padding: 10px;
+}
+.header-bar .header-bar-content{
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+.header-bar nav a:hover{
+  background-color: rgba(255, 115, 0, 0.22);
+}
+.header-bar nav a:hover ~ ul {
+    position: absolute;
+    display: block;
+    padding: 10px;
+    background-color: rgba(255, 115, 0, 0.22);
+}
+.header-bar nav li ul li{
+    list-style: none;
+    display: block;
+
+    padding: 10px;
+}

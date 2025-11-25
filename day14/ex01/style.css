@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.expand-content{
+    display: none;
+}
+.expand-title{
+    width: 30rem;
+    background-color: pink;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.expand-panel{
+    margin-top: 16px;
+}
+.expand-title-icon{
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    font-weight: bold;
+}
+
+.expand-title:hover {
+    background-color: deeppink;
+}
+.expand-panel input[type=checkbox]:checked + .expand-content {
+    display: block;
+}
+.expand-panel input[type=checkbox]:checked + label .expand-title{
+    background-color: deeppink;
+}
