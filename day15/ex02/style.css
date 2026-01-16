@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-bar img {
+    border-radius: 5px;
+}
+.header-bar {
+    border-bottom: 1px solid #ccc;
+}
+.header-bar .header-bar-content{
+    width: 600px;
+    margin: auto;
+}
+.header-bar nav{
+    display: inline-block;
+}
+.header-bar nav a ul li{
+    list-style: none;
+    display: inline-block;
+}
+header nav{
+    display: inline-block;
+    margin: auto;
+}

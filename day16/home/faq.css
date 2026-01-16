@@ -1,0 +1,40 @@
+.container {
+    max-width: 1600px;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+.bg__white {
+    background-color: #ffffff;
+}
+.faq--title{
+    width: 33%;
+    padding: 100px 60px 0 100px;
+}
+.faq--questions{
+    width: 67%;
+    margin: 100px 100px 0 100px;
+}
+.faq--title h2{
+    font-size: 48px;
+    line-height: 120%;
+}
+.faq--title p{
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+.faq--title a {
+    font-size: 18px;
+    line-height: 150%;
+    padding: 18px 20px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    border-radius: 12px;
+}
+.faq--questions--title{
+    font-size: 20px;
+    line-height: 150%;
+}
+
+

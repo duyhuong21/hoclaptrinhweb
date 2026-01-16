@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // const age = 17
+    // if ( age < 18 ){
+    //     console.log("Ban chua du 18 tuoi");
+    // }
+    // else{
+    //     console.log("Ban da du 18 tuoi");
+    // }
+    // let day = "mon"
+    // switch (day){
+    //     case "mon":
+    //         console.log("To day is monday")
+    //         break;
+    //     case "tues":
+    //         console.log("To day is tuesday")
+    //         break;
+    //     case "web":
+    //         console.log("To day is wednesday")
+    //         break;
+    //     case "five":
+    //         console.log("To day is fiveday")
+    //         break;
+    //     case "six" :
+    //         console.log("To day is sixday")
+    //         break;
+    // }
+    //
+    // let age = 19
+    // switch (true){
+    //     case ( age > 18 ):
+    //         console.log("Da du tuoi") ;
+    //     break;
+    //     case ( age === 18 ):
+    //         console.log("Vua tron tuoi") ;
+    //     break;
+    //     case ( age < 18 ):
+    //         console.log("Chua du tuoi") ;
+    //     break;
+    // }
+    // console.log(age < 18 ? "ban chua du 18 tuoi" : "ban da du 18 tuoi");
+
+    // part 1
+    let height = 170
+    let weight = 56
+    let bmi = weight / (height * height)
+    console.log("BMI =", bmi)
+    if (bmi < 18.5) {
+        console.log("Phân loại: Gầy")
+    } else if (bmi < 25) {
+        console.log("Phân loại: Bình thường")
+    } else {
+        console.log("Phân loại: Thừa cân")
+    }
+    // part 2
+    let n = 20
+    if (n % 2 === 0) {
+        console.log("n là số chẵn")
+    } else {
+        console.log("n là số lẻ")
+    }
+
+    if (n % 3 === 0) {
+        console.log("n chia hết cho 3")
+    } else {
+        console.log("n không chia hết cho 3")
+    }
+    // part 3
+    let age = 69
+    if (age < 12) {
+        console.log("Trẻ em")
+    } else if (age <= 25) {
+        console.log("Thanh niên")
+    } else if (age <= 60) {
+        console.log("Trưởng thành")
+    } else {
+        console.log("Người già")
+    }
+
+    let year = 2025
+    console.log(year++)
+    console.log(year)
+
+    // function sum(){
+    //     console.log("Ham tinh tong")
+    // }
+
+    const sum = function(a, b){
+        return a + b
+    }
+    console.log(sum(5, 8))
+</script>
+</body>
+</html>

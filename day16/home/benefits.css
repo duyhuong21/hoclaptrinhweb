@@ -1,0 +1,29 @@
+.container{
+    margin: auto;
+    max-width: 1600px;
+}
+.benefits{
+    display: flex;
+    gap: 20px;
+}
+.benefits-item{
+    display: flex;
+    flex-shrink: 1;
+    padding: 50px;
+    background-color: red;
+}
+.benefit-number{
+    font-size: 86px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+.benefit-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 50px 0 14px 0;
+}
+.benefits-description{
+    font-size: 18px;
+    color: #4c4c4d;
+}

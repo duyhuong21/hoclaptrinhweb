@@ -116,3 +116,13 @@ box-sizing :
 + inset
 * inset đại điện cho 4 top right bottom left;
 - z-index:
+
+* display: flex;
+-> phải css cho thẻ cha
+-> khác inline-block
++ main axis, tross axis,
+* align-items: -> căn theo trục cross
+* flex-wrap: wrap -> xuống dòng nếu hết chỗ
+* flex-shrink: ; -> cho các phần tử được co lại hay không
+* flex-grow: ; -> cho các phần tử được giãn ra hay không
+** flex-shrink: , flex-grow: được ưu tiên hon width

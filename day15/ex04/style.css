@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    border: 10px solid red;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box{
+    flex-shrink: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid blue;
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+#box1{
+    flex-shrink: 2;
+}

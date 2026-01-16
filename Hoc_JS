@@ -1,0 +1,111 @@
+JS : là 1 ngôn ngữ lập trình
+- ra đời với mục đích làm fe
+
+JS
+- ưu điểm triển khai nhanh dễ code
+- nhược điểm
++ không tường minh dẫn đến khó bảo trì
++ khi code sai không thể biết ngay được
++ không hỗ trợ lập trình hướng đối tượng
+
+TS ( typeS) ra đời để giải quyết hầu hết nhược điểm
+-> có những nét tương đồng với Java
+
+- in giá trị ra màn teminal mình dùng console.log
+
+- biến &varliable ++++=====
+
+- dùng để lưu tạm thời các giá trị nào đó
+
++ const/let/var/ <tên biến> = <giá trị>
+
+* Phân biệt const let var
+
+day 20
+**JS có 7 kiểu dữ liệu
+ - có 7 kiểu dữ liệu nguyên thủy :
+ + string
+ + number
+ + boolean
+ + Null
+ + BigInt
+ + symbol
+ - 1 kiểu dữ liệu tham chiếu
+ + object
+
+ đặc điểm kiểu dữ liệu nguyên thủy không thể thay đổi giá trị
+ ngược lại kiểu dữ liệu tham chiếu có thể thay đổi giá trị
+
+** câu lệch rẽ nhánh
+1. If
+ if ( true ) {
+    khối lệch được thực hiện;
+ }
+ if ( false  ) {
+     khối lệch được thực hiện;
+  }
+2. If else
+3. If else if
+4. switch case
+ switch(day){
+  case "mon": "Today is monday"
+  case ".....":
+  default
+ }
+5. ternary opertor ( ? : ) toán tử 3 ngôi
+ console.log( age < 18 ? "ban chua du 18 tuoi" : "ban da du 18 tuoi");
+6. toán tử
+6.1
+ ++ là cộng thêm 1 đơn vị mỗi lần
+ viết ++5 thì sẽ ra 6
+ -- là trừ đi 1 đơn vị mỗi lần
+ viết --6 thì sẽ ra 5
+6.2
+ ==
+ ===
+ !=
+
+...
+
+7 Hàm
+
+7.1 Hàm khai báo ( declaration function )
+function sum(){
+  khối lệch để thực hiện
+}
+7.2 Hàm biểu thức
+const sum = function (a, b){
+  return: a + b ;
+}
+7.3 Hàm mũi tên
+const sum =  (a, b) => {
+  return: a + b ;
+}
+- "this" is not working with arrow func()
+7.4 IIFE Hàm được triệu hồi ngay lập tức
+cú pháp (<Function>)()
+7.5 Hàm vô danh
+
+7.6 Call back
+hàm được dùng như một tham số trong hàm khác , nghĩa là :
+- nó là hàm-
+- nó được truyền vào như 1 tham số hàm khác
+
+* Day 22
+loop - vòng lập
+thực hiện đi thực hiện lại 1 công việc nào đó :
++ for
++ for in
++ forEach
++ for of
++ white
+advence
++ map
++ filter
+
+Array.isArray.(obj) -> kiểm tra xem có phải mảng hay không
+break: phá vỡ khỏi vòng lập
+
+Tính tham thiếu - reference
+
+for in -
