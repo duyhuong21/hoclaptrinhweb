@@ -1,5 +1,7 @@
 JS : là 1 ngôn ngữ lập trình
-- ra đời với mục đích làm fe
+- ra đời với mục đích làm fe ( Frontend )
+Frontend (FE) = phần bạn nhìn thấy và tương tác trên website/app
+👉 ví dụ: nút bấm, form đăng nhập, menu, hiệu ứng, màu sắc...
 
 JS
 - ưu điểm triển khai nhanh dễ code
@@ -19,19 +21,37 @@ TS ( typeS) ra đời để giải quyết hầu hết nhược điểm
 
 + const/let/var/ <tên biến> = <giá trị>
 
-* Phân biệt const let var
+* Phân biệt const let var ( link o f8-k18)
 
+let  a = 1 -> declare "a" variable and assign value 1
+     a = 2 -> update value of "a"
+
+bool
+   is/are/have/has + adj/N
+   exp:
+      - isNumber = true/false
+
+*Ep kieu - type casting*
+const a = 1000
+convert
 day 20
 **JS có 7 kiểu dữ liệu
  - có 7 kiểu dữ liệu nguyên thủy :
- + string
- + number
- + boolean
+ + string ( một chuỗi kí tự )
+ + number ( int, float , ...)
+ + boolean ( true / false )
  + Null
  + BigInt
  + symbol
  - 1 kiểu dữ liệu tham chiếu
  + object
+    - array
+    - dictionary (key - value) :
+         exp:
+            {
+              "hello": "xin chao",
+              "ok": "duoc"
+            }
 
  đặc điểm kiểu dữ liệu nguyên thủy không thể thay đổi giá trị
  ngược lại kiểu dữ liệu tham chiếu có thể thay đổi giá trị
