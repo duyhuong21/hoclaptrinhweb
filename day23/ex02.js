@@ -20,25 +20,6 @@ for( const company of companies){
     companyMap
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // for( const person of persons ){
 //     const companyId = persons.companyId
 //     delete persons.companyId

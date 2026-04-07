@@ -28,4 +28,3 @@ const filterProducts = products
     .filter(product => product.price > 20000)
     .map(product => product.name)
 console.log(filterProducts);
-

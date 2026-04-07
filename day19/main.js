@@ -6,9 +6,16 @@
 // const copieNumbers = Numbers
 // console.log(copieNumbers)
 
-const student_A ={
-    name:"John",
-    age:25,
-    scores: [1,2,3]
-}
-console.log(student_A.name,student_A.age)
+// const student_A ={
+//     name:"John",
+//     age:25,
+//     scores: [1,2,3]
+// }
+// console.log(student_A.name,student_A.age)
+
+let x = "10"
+let y = 2
+console.log(x + y)
+console.log(x - y)
+console.log(x * "3")
+console.log("Hello" - y)
